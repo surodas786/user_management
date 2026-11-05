@@ -1,10 +1,13 @@
 {
   "mcpServers": {
     "tencentdb-memory": {
-      "command": "node",
-      "args": [
-        "E:\\tencentdb-mcp-adapter\\dist\\index.js"
-      ]
+      "type": "http",
+      "url": "http://192.168.1.143:8787/mcp",
+      "headers": {
+        "X-TencentDB-User-Key": "sk-mem-jiOuf1-pvUt2pbTbU9bYveTKzG8lOvl_",
+        "X-TencentDB-User-Id": "usr-9d0t0lvju5",
+        "X-TencentDB-Agent-Id": "agt-9d0tol5gmw"
+      }
     }
   }
 }
